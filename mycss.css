@@ -1,0 +1,12 @@
+body
+{
+    background-color:yellow;
+}
+.center {
+    text-align: center;
+}
+td {
+	background-color: white;
+	color: #000000 ;
+    border:5px solid black;
+}
