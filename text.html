@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0px; 
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sidebar {
+        width: 10px;
+    }
+}
+	.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            min-width: 1000px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1000px) {
+            img.bg {
+                left: 50%;
+                margin-left: -500px;
+            }
+        }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="https://hongyushi101094.github.io/wd107b/423.html">Home</a>
+  
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">社交網路
+	  
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="https://www.facebook.com/profile.php?id=100004225087378">fb</a>
+    <a href="https://www.instagram.com/hong_yu_0914/?hl=zh-tw">Instagram</a>
+    
+	
+  </div>
+   </div>
+
+	
+</div>
+<div class="bg">
+        <img src="https://t3.ftcdn.net/jpg/01/43/86/98/500_F_143869862_YvAYMIMZHmDmuAcuJRsmdIYaHxEHQFhp.jpg">
+    </div>
+	
+<h3>我的部落</h3>
+<p>哈囉!~我叫做施泓宇目前就讀金門大學資工系一年級19歲立志當一條鹹魚喔~!</p>
+<img border="0" src="https://scontent.ftpe11-1.fna.fbcdn.net/v/t1.0-9/64601943_1305696292914528_1559630701102366720_o.jpg?_nc_cat=110&_nc_ht=scontent.ftpe11-1.fna&oh=81664e999de5289e46bc578b3a389ecc&oe=5D8C326D" alt="Pulpit rock" width="304" height="228">
+
+</body>
+</html>
